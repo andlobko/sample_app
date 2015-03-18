@@ -18,7 +18,9 @@ end
 group :test do
   gem 'selenium-webdriver', '2.35.1'
   gem 'capybara', '2.1.0'
-  gem 'libnotify', '0.8.0'
+  #gem 'libnotify', '0.8.0'
+  gem 'rb-notifu', '0.0.4'
+  gem 'wdm', '0.1.0'
 end
 
 gem 'bootstrap-sass', '2.3.2.0'
